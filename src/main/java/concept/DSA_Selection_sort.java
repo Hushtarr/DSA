@@ -6,10 +6,10 @@ public class DSA_Selection_sort
     public static void main(String[] args)
         {
         int[] arr={3,2,7,5};
-        for (int minIndex = 0; minIndex <arr.length-1 ; minIndex++) //only for index  -> pointer
+        for (int minIndex = 0; minIndex < arr.length-1 ; minIndex++) //only for index  -> pointer
             {
             int min=minIndex;
-            for(int j=minIndex+1;j<arr.length;j++)
+            for(int j=minIndex+1;j < arr.length;j++) // only for length not for index
                 if(arr[min]>arr[j])
                     {
                     min=j;
@@ -18,5 +18,6 @@ public class DSA_Selection_sort
             arr[minIndex]=arr[min];
             arr[min]=temp;
             }
+        System.out.println(Arrays.toString(arr));
         }
     }
