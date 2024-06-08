@@ -16,10 +16,10 @@ public class Pattern07 {
     public static void print1(int n) {
         for (int row = 1; row <=n; row++) {
 
-            for (int columnSpace = 1; columnSpace <row; columnSpace++) {
+            for (int space = 1; space <row; space++) {
                 System.out.print(" ");
             }
-            for (int columnStar = 0; columnStar <=n-row ; columnStar++) {
+            for (int star = 0; star <=n-row ; star++) {
                 System.out.print("* ");
             }
             System.out.println();
