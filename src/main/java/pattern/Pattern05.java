@@ -31,8 +31,8 @@ public class Pattern05 {
     }
 
     public static void print2(int row) {
-        for (int i = row; i >=1; i--) { // 54321 it will not be printed cuz it will be start with 5 each line
-            for (int j = 1; j <=i; j++) { // each line start with 1,12345,1234... j <=i define descending order
+        for (int i = row; i >=1; i--) {
+            for (int j = 1; j <=i; j++) {
                 System.out.print(j);
             }
             System.out.println();
